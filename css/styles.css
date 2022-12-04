@@ -298,7 +298,7 @@ h1 {
     gap: 30px;
 }
 .projects-titles {
-    margin: 0 auto;
+    margin: 0 0 4px 0;
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
