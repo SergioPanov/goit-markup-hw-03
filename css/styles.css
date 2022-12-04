@@ -46,7 +46,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 .header-container {
     display: flex;
@@ -293,7 +293,7 @@ h1 {
 .portfolio-gallery {
     flex-wrap: wrap;
     display: flex;
-    gap: 26px;
+    gap: 30px;
 }
 .projects-titles {
     margin: 0 auto;
