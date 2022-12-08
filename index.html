@@ -13,8 +13,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <div class="header-container">
+        <div class="container header-container">
                 <nav class="header-nav">
                     <a class="header-logo link" href="./index.html">Web<span class="header-logo-second">Studio</span></a>
                 <ul class="header-menu list">
@@ -27,7 +26,6 @@
                     <li><a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li><a class="address-link link" href="tel:+380961111111">+380961111111</a></li>
                 </ul>
-            </div>
         </div>
     </header>
     <main>
@@ -37,25 +35,24 @@
                 <button class="hero-button" type="button">Замовити послугу</button>
             </div>
         </section> 
-        <section>
-            <!--TODO:Приховати h2 в CSS щоб не порушувати порядок заголовків -->
-            <h2 class="visual-hidden">Характеристики нашої команди</h2>
+        <section class="section-wrap">
             <div class="container">
-                <div class="container-benefits">
+                <!--TODO:Приховати h2 в CSS щоб не порушувати порядок заголовків -->
+                <h2 class="visual-hidden">Характеристики нашої команди</h2>
                     <ul class="benefits list">
-                        <li>
+                        <li class="benefits-list">
                             <h3 class="subtitle">Увага до деталей</h3>
                             <p class="subtext">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                         </li>
-                        <li>
+                        <li class="benefits-list">
                             <h3 class="subtitle">Пунктуальність</h3>
                             <p class="subtext">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                         </li>
-                        <li>
+                        <li class="benefits-list">
                             <h3 class="subtitle">Планування</h3>
                             <p class="subtext">Так само консультація з широким активом значною мірою зумовлює.</p>
                         </li>
-                        <li>
+                        <li class="benefits-list">
                             <h3 class="subtitle">Сучасні технології</h3>
                             <p class="subtext">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                         </li>
@@ -63,13 +60,13 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="section-service">
             <div class="container">
                 <h2 class="section-title">Чим ми займаємося</h2>
             <ul class="service list">
-                <li><img src="./images/box1.jpg" width="370" alt="програмування"></li>
-                <li><img src="./images/1img.jpg" width="370" alt="телефон"></li>
-                <li><img src="./images/2img.jpg" width="370" alt="колір"></li>
+                <li><img class="img-list" src="./images/box1.jpg" width="370" alt="програмування"></li>
+                <li><img class="img-list" src="./images/1img.jpg" width="370" alt="телефон"></li>
+                <li><img class="img-list" src="./images/2img.jpg" width="370" alt="колір"></li>
             </ul>
             </div>
         </section>
@@ -111,14 +108,13 @@
     </main>
     <footer class="footer">
         <div class="container">
-            <div class="container-footer">
-                <a class="footer-logo link" href="./index.html">Web<span class="footer-logo-second">Studio</span></a>
+            <a class="footer-logo link" href="./index.html">Web<span class="footer-logo-second">Studio</span></a>
         <address>
             <ul class="list">
-                <li><a class="address-place link" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Украінки, 26</a>  
+                <li class="address-list"><a class="address-place link" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Украінки, 26</a>  
                 </li>
-                <li> <a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="address-link  link" href="tel:+380961111111">+380961111111</a></li>
+                <li class="address-list"> <a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="address-list"><a class="address-link  link" href="tel:+380961111111">+380961111111</a></li>
             </ul>
         </address>
             </div>
